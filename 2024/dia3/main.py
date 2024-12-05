@@ -22,9 +22,7 @@ def solution_2():
     total_sum = 0
     do = True
     for value in values:
-        print(value)
         if value == "don't()":
-            print("hjere")
             do = False
             continue
 
